@@ -1,0 +1,144 @@
+
+        .heading {
+          width: 145px;
+          height: 60px;
+          padding-left: 20px;
+
+        }
+
+        @font-face {
+          font-family: thickness;
+          src: url('font/thick1.ttf');
+        }
+
+
+        @font-face {
+          font-family: google;
+          src: url('font/google.ttf');
+        }
+
+         @font-face {
+          font-family: stilu;
+          src: url('font/stilu.otf');
+        }
+        @font-face {
+          font-family: simple;
+          src: url('font/simple.ttf');
+        }
+
+        @font-face {
+          font-family: cheddar;
+          src: url('font/cheddar.ttf');
+        }
+        .main {
+          font-family: cheddar;
+          color: #D4A41C;
+          margin-bottom: 7px;
+        }
+        .bold {
+          font-weight: bolder;
+          font-size: 1.3em;
+        }
+
+        .logo {
+          margin-top: 11px;
+          width: 39px;
+          height: 40px;
+          margin-bottom: 7px;
+          margin-left: 20px;
+        }
+
+        .nav-el {
+          font-family: simple;
+        }
+
+        .text {
+          font-family: google;
+        }
+
+        .text2 {
+          font-family: cheddar;
+        }
+
+
+        body {
+          background: url('image/stars.png');
+        }
+
+        .align img {
+          margin-left: 125px;
+          margin-top: 23px;
+          width: 50px;
+          height: 55px;
+        }
+
+        .align2 {
+          
+
+        }
+
+        .align2 p {
+          text-align: center;
+        }
+
+        .align2 img {
+          margin-left: 288px;
+        }
+
+        .align3 {
+          margin-left: 145px;
+        }
+
+        .align4 {
+
+          margin-left: 230px;
+        }
+
+        .align5 {
+          margin-left: 250px;
+          color: #fff;
+          font-size: 0.8em;
+        }
+
+        .align6 {
+          margin-left: 330px;
+          margin-top: 20px;
+          margin-bottom: 50px;
+          margin-right: 200px;
+        }
+
+        .color-text {
+          color: #FFEB4A;
+        }
+
+        .button a {
+          color: black;
+        }
+
+        .align9 {
+          margin:30px;
+        }
+
+        .img_margin {
+          margin-left: 150px;
+        }
+
+        .input-field input[type=text]:focus + label {
+          color: #000000;
+        }  
+
+        .input-field input[type=text]:focus {
+          border-bottom: 1px solid #000000;
+          box-shadow: 0 1px 0 0 #000000;
+        }
+        .input-field input[type=email]:focus + label {
+          color: #000000;
+        }  
+
+        .input-field input[type=password]:focus {
+          border-bottom: 1px solid #000000;
+          box-shadow: 0 1px 0 0 #000000;
+         }
+         .input-field input[type=password]:focus + label {
+          color: #000000;
+        }

@@ -1,0 +1,124 @@
+.heading {
+          width: 145px;
+          height: 60px;
+          padding-left: 20px;
+
+        }
+
+
+        @font-face {
+          font-family: google;
+          src: url('font/google.ttf');
+        }
+
+        @font-face {
+          font-family: thickness;
+          src: url('font/thick1.ttf');
+        }
+
+         @font-face {
+          font-family: stilu;
+          src: url('font/stilu.otf');
+        }
+        @font-face {
+          font-family: simple;
+          src: url('font/simple.ttf');
+        }
+
+        @font-face {
+          font-family: cheddar;
+          src: url('font/cheddar.ttf');
+        }
+        @font-face {
+          font-family: code;
+          src: url('font/code.otf');
+        }
+        .backgroundclr {
+          background: #6AA4B8;
+        }
+        .dashboardimg {
+          width: 480px;
+          height: 300px;
+          margin: 40px;
+          padding-left: 80px;
+        }
+        .pad {
+          margin: 10px;
+        }
+        
+
+
+
+        .main {
+          font-family: cheddar;
+          color: #D4A41C;
+          margin-bottom: 7px;
+        }
+
+        .logo {
+          margin-top: 11px;
+          width: 39px;
+          height: 40px;
+          margin-bottom: 7px;
+          margin-left: 20px;
+        }
+
+        .nav-el {
+          font-family: simple;
+        }
+
+        .text {
+          font-family: google;
+        }
+
+        .text2 {
+          font-family: cheddar;
+
+        }
+        .text3 {
+          font-family: stilu;
+        }
+        .bold {
+          font-weight: bolder;
+        }
+
+        body {
+          background: url('image/stars.png');
+        }
+
+        .align {
+          margin: 30px;
+        }
+
+        .btn-1 {
+          margin-left: 480px;
+        }
+
+        .btn-2 {
+          margin: 20px;
+        }
+      
+
+        .button a {
+          color: black;
+        }
+
+        .align12 {
+          margin-left: 15px;
+        }
+
+        .align9 {
+          margin:30px;
+        }
+
+        .img_margin {
+          margin-left: 150px;
+        }
+
+        .align2 a {
+        	margin-left: 220px;
+        }
+        .cardsize {
+          width: 600px;
+          height: 200px;
+        }

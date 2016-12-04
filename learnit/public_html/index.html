@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+  <meta charset="utf-8">
+  <head>
+  <title>Slider</title>
+  <style type="text/css">
+  body {
+    background-color: royalblue;
+  }
+  .layout {
+    margin: 20px auto;
+    text-align: center;
+    width: 500px;
+  }
+  .layout li{
+    padding: 20px;
+    background-color: white;
+  }
+  </style>
+
+  <link href="jquery.bxslider.css" rel="stylesheet" />
+   <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  </head>
+  <body>
+  <div class="layout">
+  <ul class="bxslider">
+  <li><h2>One.</h3></li>
+  <li><h2>Two.</h3></li>
+  <li><h2>Threee.</h3></li>
+  <li><h2>Four.</h3></li>
+  </ul>
+</div>
+
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+  </script>
+
+  </body>
+</html>

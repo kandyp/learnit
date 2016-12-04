@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      var djConfig = {
+        baseScriptUri : "js/dojo/",
+        parseOnLoad : true
+      };
+    </script>
+    <script type="text/javascript" src="js/dojo/dojo/dojo.js"></script>
+    <script>
+      dojo.require("dojox.timing._base");
+
+      var t = new dojox.timing.Timer();
+      function show() {
+        t.setInterval(1000);
+        t.onTick = function() {
+          dojo.byId("my").innerHTML += "Next...";
+        }
+        t.start();
+      }
+    </script>
+  </head>
+  <body onLoad="testIt();">
+        <input type="button" onClick="show()" value="Click to start">
+        <input type="button" onClick="t.stop();" value="Click to stop">
+        <div id="my">&nbsp;</div>
+  </body>
+</html>
